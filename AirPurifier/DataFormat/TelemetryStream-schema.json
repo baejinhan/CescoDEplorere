@@ -1,0 +1,30 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "JSON Schema for Telemetry file format",
+
+	"type": "object",
+
+	"properties": {
+    "MachineID": {
+      "type": "string",
+      "description": "MachineID 17 digit serial number"
+    },
+    "Type": {
+      "type": "integer",
+      "default": "1",
+      "description": " 1 - Telemetry"
+    },
+    "Model": {
+      "type": "string",
+      "description": "Machine Model Type"
+    },
+		"DeviceData": {
+			"type": "array",
+			"description": "An array of sensor data.",
+			"minItems": 1,
+			"items": {
+				"type": "number"
+			}
+		}
+	}
+}

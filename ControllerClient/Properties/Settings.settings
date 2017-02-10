@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CESCO.IoT.ControllerClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="StorageConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DefaultEndpointsProtocol=https;AccountName=cescoheartbeatstoragedev;AccountKey=cN+rL2OLgOKuFlRSY8A3lrUQPimjYHY9rrIft0IHW/LEvLeDL78e5Dr0XTncAkKAQZLzIV+Lf5g8f+xkWi8bbg==</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

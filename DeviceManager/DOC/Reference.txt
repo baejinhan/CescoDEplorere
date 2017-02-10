@@ -1,0 +1,1 @@
+﻿Nuget package - Microsoft.Azure.Devices 1.0.4 //

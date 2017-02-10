@@ -1,0 +1,30 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "JSON Schema for Command or Error(Alarm) file format",
+
+	"type": "object",
+
+	"properties": {
+    "MachineID": {
+      "type": "string",
+      "description": "MachineID 17 digit serial number"
+    },
+    "Type": {
+      "type": "integer",
+      "description": "0 - Command / 2 - Error(alarm)"
+    },
+    "Model": {
+      "type": "string",
+      "description": "Machine Model Type"
+    },
+    "CommandCode": {
+      "type": "string",
+      "description": "from C001 ~ C007?"
+    },
+    "CommandData": {
+      "type": "number",
+      "description": "Command Parameter : on/off(binary) or quantifiable number"
+    }
+		}
+	}
+}
